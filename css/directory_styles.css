@@ -1,0 +1,82 @@
+.directory-header {
+  background: #f8f8f8;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.directory-header input {
+  margin: 12px 24px;
+  max-height: 44px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  outline: none;
+  resize: none;
+}
+
+input:focus {
+  border: 1px solid lightskyblue;
+}
+
+.directory-header h2 {
+  margin: 20px 40px;
+  font-size: 1.9em;
+}
+
+#employeeList {
+  max-width: 1024px;
+  list-style: none;
+  padding: 0;
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#employeeList li {
+  padding: 1em;
+  margin: 10px;
+  width: 320px;
+  height: 120px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: solid 1px lightgray;
+  border-bottom: solid 2px lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#employeeList li:hover {
+  cursor: pointer;
+  border: solid 1px lightskyblue;
+  border-bottom: solid 2px lightskyblue;
+}
+
+#employeeList img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 5px;
+}
+
+.card-details {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-details p {
+  margin: 3px 0;
+  color: #8b8b8b;
+  font-weight: normal;
+}
+
+.card-details h3 {
+  margin: 3px 0;
+}

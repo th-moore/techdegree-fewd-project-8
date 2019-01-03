@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+  <head>  
+    
+    <!-- Page metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas Moore">
+
+    <!-- Page title -->
+    <title>Employee Directory</title>
+
+    <!-- Assets -->
+    <link rel="shortcut icon" href="http://teamtreehouse.com/assets/favicon.ico">
+    <link rel="icon" href="http://teamtreehouse.com/assets/favicon.ico">
+
+    <!-- External fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+        
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/global_styles.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/directory_styles.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/modal_styles.css">
+    
+    <!-- Javascript -->
+
+  </head>
+  
+  <body>
+
+      <div class="directory-header">
+        <h2>Employee Directory</h2>
+        <input type="text" placeholder="Search">
+      </div>
+
+      <!-- List of employees -->
+      <ul id="employeeList">        
+      </ul>	
+
+      <!-- The modal view -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          
+          <div class="modal-body">
+            <p>Some text in the Modal Body</p>
+            <p>Some other text...</p>
+          </div>
+          
+          <div class="modal-footer">
+            <h3>Modal Footer</h3>
+          </div>
+        
+        </div>
+
+      </div> <!-- End of the modal -->
+
+      <footer>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Open Modal</button>
+        <p>Made in London, U.K.</p>
+      </footer>
+    
+  <script src="js/script.js"></script>
+  </body>
+</html>

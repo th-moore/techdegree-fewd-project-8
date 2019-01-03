@@ -1,13 +1,13 @@
 # techdegree-fewd-project-8
 
 ## API Usage
-1. Use fetch to request 12 random users from the API.
-2. New random employee information displays each time the page refreshes.
+1. [**DONE**] Use fetch to request 12 random users from the API.
+2. [**DONE**] New random employee information displays each time the page refreshes.
 
 ___
 
 ## User Directory
-1. The directory includes the following:
+1. [**DONE**] The directory includes the following:
 * Employee Image
 * First and Last Name
 * Email
