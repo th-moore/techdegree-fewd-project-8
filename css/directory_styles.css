@@ -2,13 +2,19 @@
   background: #f8f8f8;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
+@media (min-width: 820px) {
+  .directory-header {
+    flex-direction: row;
+  }
+}
+
 .directory-header input {
-  margin: 12px 24px;
+  margin: 0px 24px 24px;
   max-height: 44px;
   max-width: 400px;
   width: 100%;
@@ -17,6 +23,13 @@
   padding: 10px;
   outline: none;
   resize: none;
+}
+
+@media (min-width: 820px) {
+  .directory-header input {
+    flex-direction: row;
+    margin: 12px 24px;
+  }
 }
 
 input:focus {
@@ -75,8 +88,21 @@ input:focus {
   margin: 3px 0;
   color: #8b8b8b;
   font-weight: normal;
+  font-size: 14px;
+  width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-details h3 {
   margin: 3px 0;
+  font-size: 17px;
+}
+
+#c-name,
+#c-city,
+#m-name,
+#m-address {
+  text-transform: capitalize;
 }

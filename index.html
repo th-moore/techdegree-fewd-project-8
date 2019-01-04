@@ -32,7 +32,7 @@
 
       <div class="directory-header">
         <h2>Employee Directory</h2>
-        <input type="text" placeholder="Search">
+        <input id="searchbar" type="text" placeholder="Search">
       </div>
 
       <!-- List of employees -->
@@ -44,19 +44,26 @@
 
         <!-- Modal content -->
         <div class="modal-content">
-          
-          <div class="modal-header">
-            <span class="close">&times;</span>
-            <h2>Modal Header</h2>
-          </div>
-          
-          <div class="modal-body">
-            <p>Some text in the Modal Body</p>
-            <p>Some other text...</p>
-          </div>
-          
-          <div class="modal-footer">
-            <h3>Modal Footer</h3>
+          <span class="m-close">&times;</span>
+          <span class="m-prev"> &#8249; </span>
+          <span class="m-next"> &#8250; </span>
+
+          <div class="modal-sections">
+            <div class="modal-header">
+              <img id="m-photo" src="">
+              <h2 id="m-name"></h2>
+            </div>
+            
+            <div class="modal-body">
+              <p id="m-email"></p>
+              <p id="m-mobile"></p>
+              <p id="m-address"></p>
+              <p id="m-dob"></p>
+            </div>
+            
+            <div class="modal-footer">
+              <h3 id="m-index"></h3>
+            </div>
           </div>
         
         </div>
@@ -65,7 +72,6 @@
 
       <footer>
         <!-- Trigger/Open The Modal -->
-        <button id="myBtn">Open Modal</button>
         <p>Made in London, U.K.</p>
       </footer>
     
